@@ -3,6 +3,8 @@ body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  background: url("pexels-aleksandar-pasaric-2964115.jpg");
+  background-size: contain;
 }
 h1 {
   padding-top: 100px;
@@ -12,8 +14,6 @@ h1 {
   display: flex;
   color: white;
   height: 100vh;
-  background: url("pexels-aleksandar-pasaric-2964115.jpg");
-  background-size: contain;
 }
 .typing {
   position: relative;
