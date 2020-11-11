@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.intro {
+  display: flex;
+  color: white;
+  height: 100vh;
+  background: url("pexels-aleksandar-pasaric-2964115.jpg");
+  background-size: contain;
+}
+.typing {
+  position: relative;
+  margin-left: 10px;
+}
+.typing::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 41px;
+  border-right: 2px solid white;
+  animation: blink 0.53s infinite ease;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
