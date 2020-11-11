@@ -4,6 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: url("pexels-aleksandar-pasaric-2964115.jpg");
+  background-repeat: no-repeat;
   background-size: contain;
 }
 h1 {
