@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: "Roboto Mono", monospace;
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -18,7 +18,6 @@ h1 {
 }
 .typing {
   position: relative;
-  margin-left: 10px;
 }
 .typing::after {
   content: "";
