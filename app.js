@@ -1,4 +1,4 @@
-const texts =["banana","fruit", "snack", "delight","treat","cavendish","pleasure"];
+const texts =["banana","fruit", "snack", "delight","treat","cavendish","pleasure","berry"];
 let count =0; 
 let index=0;
 let currentText="";
