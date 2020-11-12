@@ -49,4 +49,7 @@ footer {
     font-size: 10px;
     padding-top: 171px;
   }
+  .typing::after {
+    height: 16px;
+  }
 }
