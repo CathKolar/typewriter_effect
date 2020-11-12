@@ -1,4 +1,4 @@
-const texts =["banana","fruit", "snack", "delight","treat","cavendish","pleasure","berry"];
+const texts =["banana","fruit", "snack", "delight","treat","cavendish","berry","pleasure"];
 let count =0; 
 let index=0;
 let currentText="";
@@ -15,5 +15,5 @@ let letter="";
     count++;
     index=0;
 }
-setTimeout(type, 400);
+setTimeout(type, 420);
 })();
