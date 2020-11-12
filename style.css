@@ -39,3 +39,14 @@ footer {
     opacity: 1;
   }
 }
+@media screen and (max-width: 479px) {
+  h1 {
+    font-size: smaller;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  footer {
+    font-size: 10px;
+    padding-top: 171px;
+  }
+}
