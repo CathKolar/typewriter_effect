@@ -6,15 +6,19 @@ body {
   background: url("pexels-aleksandar-pasaric-2964115.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  height: 100vw;
 }
 h1 {
   padding-top: 100px;
   padding-left: 100px;
 }
+footer {
+  padding-top: 400px;
+  padding-left: 100px;
+}
 .intro {
   display: flex;
   color: white;
-  height: 100vh;
 }
 .typing {
   position: relative;
